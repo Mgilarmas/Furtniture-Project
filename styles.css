@@ -6,7 +6,7 @@ body{
 header{
     width: 100%;
     height: 30px;
-    background-color: aqua;
+    background-color: #626F47;
 }
 
 .header__item{
@@ -24,6 +24,26 @@ header{
 
 .header__item li:hover{
     background-color: red;
+}
+
+.header__item h3{
+    margin: auto;
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #FEFAE0;
+}
+
+aside{
+    width: 100%;
+    height: 20vh;
+    background-color: #798645;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
