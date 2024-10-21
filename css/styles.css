@@ -49,20 +49,124 @@ header h1{
 
 main{
     width: 100%;
+    height: 150vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #FEFAE0;
 }
 
 section{
     width: 70%;
-    height: 100vh;
-    background-color: #FEFAE0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 aside{
     width: 15%;
-    height: 100vh;
+    height: 100%;
     background-color: #606c38;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left__aside ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0em;
+}
+
+.left__aside a{ 
+    text-decoration: none;
+    color: #000;
+}
+
+.left__aside a:hover{
+    text-decoration: underline;
+}
+
+.aside__login{
+width: 90%;
+height: 30vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 1em 0em;
+background-color: #fefae0;
+}
+
+.aside__login form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.aside__login input{
+    width: 70%;
+}
+
+.aside__login button{
+    width: 40%;
+}
+
+.product__card{
+    background-color: #dda15e;
+    width: 40%;
+    height: 70%;
+    margin: 1em;
+    margin: 2em auto;
+    border: 1px solid #283618;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 18px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 18px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 18px 19px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.product__card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    transition: 2s;
+}
+
+.product__card img:hover{
+    filter: saturate(2);
+}
+
+.product__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.product__price{
+    font-size: 20px;
+}
+
+.product__description{
+    font-size: large;
+    margin: 0em 1em 0em 1em;
+}
+
+.product__info button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #283618;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
